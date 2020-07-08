@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier -l --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,6 @@
     "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5"
   }
 }
