@@ -18,5 +18,9 @@
   "homepage": "https://github.com/xuzimianxzm/react-scaffold#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
   }
 }
