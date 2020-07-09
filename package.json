@@ -6,7 +6,7 @@
   "scripts": {
     "transform": "babel src/ --out-dir dist",
     "start": "npm run transform && open index.html",
-    "format": "prettier -l --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'"
+    "format": "prettier --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "sass": "^1.26.10"
   }
 }
