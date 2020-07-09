@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "transform": "babel src/ --out-dir dist",
-    "start": "npm run transform && open index.html",
+    "start": "npm run transform && parcel index.html --open",
     "format": "prettier --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'"
   },
   "repository": {
