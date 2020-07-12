@@ -6,7 +6,8 @@
   "scripts": {
     "transform": "babel src/ --out-dir dist",
     "start": "npm run transform && parcel index.html --open",
-    "format": "prettier --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'"
+    "format": "prettier --write 'src/**/*.{js,ts,css,scss,html,json,yaml,yml,md}'",
+    "lint": "eslint \"src/\" --cache --fix --format table"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,11 @@
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5",
     "sass": "^1.26.10"
   }
