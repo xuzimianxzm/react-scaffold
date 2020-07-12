@@ -1,5 +1,8 @@
 import './style/index.scss'
+import React from 'react';
+import {render} from 'react-dom';
 
-const sayHello = () => 'hello world'
-
-document.writeln(sayHello())
+render(
+    <div>Hello React</div>,
+    document.getElementById('app')
+);
